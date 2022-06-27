@@ -1,13 +1,13 @@
 const draw = SVG().addTo('body').attr({
 	viewBox: '0 0 1 1',
 	preserveAspectRatio: 'none',
-	width: '100%',
-	height: '100%',
+	width: '0',
+	height: '0',
 });
 
 const { w = width, h = height } = draw.viewbox();
 
-const steps = 8;
+const steps = 5;
 
 const s = w / steps;
 
